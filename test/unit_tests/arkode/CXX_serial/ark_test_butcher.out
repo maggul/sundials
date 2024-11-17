@@ -50,6 +50,14 @@ ARKodeButcherTable_CheckOrder:
 Testing method ARKODE_FORWARD_EULER_1_1:  table matches predicted method/embedding orders of 1/0
 Testing method ARKODE_RALSTON_EULER_2_1_2:  table matches predicted method/embedding orders of 2/1
 Testing method ARKODE_EXPLICIT_MIDPOINT_EULER_2_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_2_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_4_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_10_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_4_2_3:  table matches predicted method/embedding orders of 3/2
+Testing method ARKODE_SSP_9_2_3:  table matches predicted method/embedding orders of 3/2
+Testing method ARKODE_SSP_10_3_4:  table matches predicted method/embedding orders of 4/3
+Testing method ARKODE_SSP_LSPUM_3_1_2:  table matches predicted method/embedding orders of 2/1
 
 Testing individual DIRK methods:
 
@@ -80,6 +88,10 @@ Testing method ARKODE_ARK2_DIRK_3_1_2:  table matches predicted method/embedding
 Testing method ARKODE_BACKWARD_EULER_1_1:  table matches predicted method/embedding orders of 1/0
 Testing method ARKODE_IMPLICIT_MIDPOINT_1_2:  table matches predicted method/embedding orders of 2/0
 Testing method ARKODE_IMPLICIT_TRAPEZOIDAL_2_2:  table matches predicted method/embedding orders of 2/0
+Testing method ARKODE_SSP_SDIRK_2_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_DIRK_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_LSPUM_SDIRK_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_ESDIRK_4_2_3:  table matches predicted method/embedding orders of 3/2
 
 Testing ARK pairs:
 
