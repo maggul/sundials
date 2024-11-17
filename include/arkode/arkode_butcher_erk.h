@@ -11,7 +11,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  * SUNDIALS Copyright End
  * -----------------------------------------------------------------
- * This is the header file for ARKode's built-in ERK Butcher tables.
+ * This is the header file for ARKODE's built-in ERK Butcher tables.
  * -----------------------------------------------------------------*/
 
 #ifndef _ARKODE_ERK_TABLES_H
@@ -52,7 +52,15 @@ typedef enum
   ARKODE_FORWARD_EULER_1_1,
   ARKODE_RALSTON_EULER_2_1_2,
   ARKODE_EXPLICIT_MIDPOINT_EULER_2_1_2,
-  ARKODE_MAX_ERK_NUM = ARKODE_EXPLICIT_MIDPOINT_EULER_2_1_2
+  ARKODE_SSP_2_1_2,
+  ARKODE_SSP_3_1_2,
+  ARKODE_SSP_4_1_2,
+  ARKODE_SSP_10_1_2,
+  ARKODE_SSP_4_2_3,
+  ARKODE_SSP_9_2_3,
+  ARKODE_SSP_10_3_4,
+  ARKODE_SSP_LSPUM_3_1_2,
+  ARKODE_MAX_ERK_NUM = ARKODE_SSP_LSPUM_3_1_2
 } ARKODE_ERKTableID;
 
 /* Accessor routine to load built-in ERK table */
